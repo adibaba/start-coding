@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -14,11 +15,31 @@
 
 	<dependencies>
 
+		<!-- Webserver -->
+		<!-- https://mvnrepository.com/artifact/org.rapidoid/rapidoid-http -->
+		<dependency>
+			<groupId>org.rapidoid</groupId>
+			<artifactId>rapidoid-http</artifactId>
+			<version>5.0.7</version>
+		</dependency>
+
+		<!-- MediaWiki API -->
 		<!-- https://mvnrepository.com/artifact/org.fastily/jwiki -->
 		<dependency>
 			<groupId>org.fastily</groupId>
 			<artifactId>jwiki</artifactId>
 			<version>1.8.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.rapidoid</groupId>
+			<artifactId>rapidoid-quick</artifactId>
+			<version>5.0.7</version>
 		</dependency>
 
 	</dependencies>
